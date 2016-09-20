@@ -367,7 +367,7 @@ public class main extends javax.swing.JFrame {
                 if (grupos.getSelectedItem().toString().equals(lista_grupos.get(i).toString())) {
                     for (int j = 0; j < lista_grupos.get(i).getIntegrantes().size(); j++) {
                         text += lista_grupos.get(i).getIntegrantes().get(j).toString();
-                        text += "\t";
+                        text += "\n";
                     }
                 }
             }
